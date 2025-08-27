@@ -9,7 +9,7 @@ export default function RegisterPage(){
 
         const formData = new FormData(e.currentTarget)
         const dni = formData.get("dni") as string
-        const name = formData.get("names") as string
+        const name = formData.get("name") as string
         const surnames = formData.get("surnames") as string
         const email = formData.get("email") as string
         const password = formData.get("password") as string
